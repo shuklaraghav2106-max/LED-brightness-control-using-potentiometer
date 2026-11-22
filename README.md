@@ -20,4 +20,6 @@ Wiring:
   - Short leg (-) goes to **GND**
 
 **Cicuit Schematic**
+
+
 <img width="611" height="465" alt="image" src="https://github.com/user-attachments/assets/bfd381b3-0a52-4dfe-94c0-b0771bdfba47" />
