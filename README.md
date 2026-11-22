@@ -19,3 +19,4 @@ Wiring:
   - Long leg (+) goes to **Pin 11** (with a 220Ω resistor in between)
   - Short leg (-) goes to **GND**
 
+[LED potentiometer.pdf](https://github.com/user-attachments/files/35232767/LED.potentiometer.pdf)
