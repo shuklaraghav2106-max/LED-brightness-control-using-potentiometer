@@ -23,3 +23,9 @@ Wiring:
 
 
 <img width="611" height="465" alt="image" src="https://github.com/user-attachments/assets/bfd381b3-0a52-4dfe-94c0-b0771bdfba47" />
+
+
+### Challenges & Fixes
+* **Issue:** The LED hit full brightness way too early when turning the knob.
+* **Why:** `analogRead()` goes from `0–1023`, while `analogWrite()` only goes from `0–255`.
+* **Fix:** Used `map(val, 0, 1023, 0, 255)` to scale the values properly.
